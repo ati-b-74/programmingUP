@@ -1,0 +1,57 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main() {
+	cout << "Number?" << endl;
+	int n;
+	cin >> n;
+	for (int a = 0; a < 1; a++) {
+		for (int b = 0; b < 2 * n;b++) {
+			cout << "*";
+		}
+		for (int c = 0; c < n; c++) {
+			cout << " ";
+		}
+		for (int b = 0; b < 2 * n;b++) {
+			cout << "*";
+		}
+		cout << endl;
+	}
+	for (int a = 1; a <= n - 2; a++) {
+		for (int b = 0; b < 1; b++) {
+			cout << "*";
+		}
+	for (int c = 0; c < (n * 2) - 2; c++) {
+		cout << "/";
+	}
+	for (int d = 0; d < 1; d++) {
+		cout << "*";
+	}
+	for (int e = 0; e < n; e++) {
+		cout <<"|";
+	}
+	for (int b = 0; b < 1; b++) {
+		cout << "*";
+	}
+	for (int c = 0; c < (n * 2) - 2; c++) {
+		cout << "/";
+	}
+	for (int d = 0; d < 1; d++) {
+		cout << "*";
+	}
+	cout << endl;
+}
+	for (int a = 0; a < 1; a++) {
+		for (int b = 0; b < 2 * n;b++) {
+			cout << "*";
+		}
+		for (int c = 0; c < n; c++) {
+			cout << " ";
+		}
+		for (int b = 0; b < 2 * n;b++) {
+			cout << "*";
+		}
+		cout << endl;
+	}
+	return 0;
+}
